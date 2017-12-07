@@ -5,7 +5,7 @@
 int main(int, char**)
 {
   A a;
-  a.print;
+  a.print();
 
   std::cout << std::endl;
   return EXIT_SUCCESS;
